@@ -17,7 +17,7 @@
    padding: 38px 0 48px;
 }
 
-.header_flex, .footer_flex, .aboul {
+.header_flex, .footer_flex, .aboul, .subscribe, .plan_flex {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -102,7 +102,123 @@
    margin-left: 30px;
 }
 
+.subscribe {
+   margin-bottom: 85px;
+}
+
+.subscribe__title {
+   font-weight: bold;
+   font-size: 50px;
+   line-height: 57px;
+   line-height: 88%;
+   letter-spacing: -1.56px;
+   color: #19191B;
+   margin-bottom: 38px;
+}
+
+.input {
+   height: 60px;
+   width: 302px;
+   border-radius: 10px;
+   border: 1px solid #7087FF;
+   padding-left: 14px;
+   box-sizing: border-box;
+   margin-right: 39px;
+}
+
+.input::placeholder, .input {
+   font-weight: bold;
+   font-size: 17px;
+   line-height: 22px;
+   letter-spacing: -0.53px;
+   color: #000000; 
+}
+
+.input :focus {
+outline: none;
+}
+
+.plan {
+   margin-bottom: 132px;
+}
+
+.plan_title {
+   font-weight: bold;
+   font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1,88px;
+  color: #19191B;
+  max-width: 504px;
+  margin-bottom: 110px;
+}
+
+.item {
+   width: 330px;
+   background: #f8f8f8;
+   border-radius: 10px;
+   text-align: center;
+   padding: 34px 0 27px;
+}
+
+.item:hover {
+   transition: 500ms ;
+   background: #FF7143;
+   box-shadow: 34px 0px 32px rgba(255, 112, 59, 0.3178);
+}
+
+.item-text {
+   font-size: 18px;
+   font-weight: bold;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: -0,56;
+   color: #696871;
+}
+
+.item:hover .item_text, .item:hover .item_titel, .item:hover .item_li {
+   color: white;
+   transition: 500ms;
+}
+
+.item_titel {
+   font-size: 60px;
+   font-weight: bold;
+   line-height: 56px;
+   text-align: center;
+   letter-spacing: -1.03px;
+   color: #1D293F;
+   margin:22px 0 28px ;
+}
+
+.item_titel span {
+   font-size: 28px;
+}
+
+.item_ul {
+   margin-top: 33px;
+}
+
+.item_li {
+list-style: none;
+font-size: 17px;
+line-height: 50px;
+letter-spacing: -0,53px;
+color: #696871;
+}
+ 
+.button_item {
+width: 285px;
+background: white;
+color: #5454D4;
+margin-top: 36px;
+}
+
+.item:hover .button_item {
+   background: #9F3919;
+   color: #FFFFFF;
+   transition: 500ms;
+}
+
 .footer {
    padding: 53px 0;
 }
-
