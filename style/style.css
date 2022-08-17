@@ -33,7 +33,7 @@
 }
 
 .nav_link {
-   color:#696871 ; 
+   color:#7f7d92 ; 
    font-weight: Bold;
    font-size: 15px;
    line-height: 20px;
@@ -41,7 +41,7 @@
    text-decoration: none;
 }
 
-.nav_linc:hover {
+.nav_link:hover {
    color: black;
    transition: 300ms;
 }
